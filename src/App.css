@@ -1,0 +1,14 @@
+.App-container {
+  /*//text-align: left;*/
+  display: grid;
+  grid-template-areas:
+    'header header '
+    'nav content ';
+  //grid-gap: 4px;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+.App-container-content {
+  grid-area: content;
+  background-color: yellowgreen;
+}
